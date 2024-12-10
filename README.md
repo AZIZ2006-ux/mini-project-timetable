@@ -37,14 +37,14 @@ CREATE TABLE Timetable (
 
 -- Insert Sample Data into the Timetable table
 INSERT INTO Timetable (course_name, day, time, room, level) VALUES
-('Computer Science 101', 'Monday', '9:00 AM', 'Room 101', 1),
-('Operating Systems', 'Tuesday', '10:00 AM', 'Room 102', 1),
-('Data Structures', 'Wednesday', '2:00 PM', 'Room 103', 2),
-('Advanced Algorithms', 'Thursday', '11:00 AM', 'Room 104', 3),
-('Machine Learning', 'Friday', '1:00 PM', 'Room 105', 2),
-('Database Systems', 'Monday', '3:00 PM', 'Room 106', 3),
-('Web Development', 'Tuesday', '11:00 AM', 'Room 107', 1),
-('Networking', 'Thursday', '2:00 PM', 'Room 108', 2);
+('Operating Systems', 'Monday', '9:00 AM', 'Room 101', 1),
+('Computer Programming II', 'Tuesday', '10:00 AM', 'Room 115', 1),
+('Culture and Communication', 'Wednesday', '2:00 PM', 'Room 103', 2),
+('College Algebra', 'Thursday', '11:00 AM', 'Room 315', 3),
+('Social Engineering', 'Friday', '1:00 PM', 'Room 407', 2),
+('Global Social Problems', 'Monday', '3:00 PM', 'Room 106', 3),
+('Mathematics for Computers', 'Tuesday', '11:00 AM', 'Room 307', 1),
+('Introduction to Ethics', 'Thursday', '2:00 PM', 'Room 308', 2);
 
 -- Optionally, create the Students table
 CREATE TABLE Students (
